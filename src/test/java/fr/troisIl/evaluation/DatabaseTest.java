@@ -29,4 +29,5 @@ public class DatabaseTest {
         db.createBasicSqlTable();
         assertEquals(db.showTable(), "Product");
     }
+
 }
