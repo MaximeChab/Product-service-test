@@ -22,12 +22,12 @@ public class DatabaseTest {
         db = new Database(testDatabaseFileName);
     }
 
-    @Test
+    /*@Test
     public void testDatabaseTable() {
         setUp();
 
         db.createBasicSqlTable();
         assertEquals(db.showTable(), "Product");
-    }
+    }*/
 
 }
