@@ -1,7 +1,7 @@
 package fr.troisIl.evaluation;
 
 import java.sql.*;
-//
+
 /**
  * Objet de connection à la base de données
  */
