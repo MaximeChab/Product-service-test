@@ -22,3 +22,8 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean install
+
+      - name: SonarCloud Scan
+        run: mvn sonar:sonar
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
