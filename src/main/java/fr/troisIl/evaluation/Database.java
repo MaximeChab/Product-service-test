@@ -57,7 +57,10 @@ public class Database {
             st.setQueryTimeout(30);
             st.executeUpdate(sql);
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException(e)
+                    fezdsffdsj
+                            fefboi
+                            fezfezfizeh
         }
         return st;
     }
