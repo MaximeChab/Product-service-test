@@ -129,7 +129,7 @@ public class ProductDaoTest {
         verify(mockPreparedStatement, times(1)).executeUpdate();
     }
     
-   /* @Test
+    @Test
     public void testInsertAndFindById() {
         Product product = new Product();
         product.setLabel("Test Product");
@@ -147,7 +147,7 @@ public class ProductDaoTest {
         assertEquals(productId, foundProduct.getId());
         assertEquals("Test Product", foundProduct.getLabel());
         assertEquals(5, (int)foundProduct.getQuantity());
-    }*/
+    }
     
 
 }
