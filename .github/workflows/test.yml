@@ -23,8 +23,20 @@ jobs:
       - name: Build with Maven
         run: mvn clean install
 
+
+  Sonar:
+    runs-on: ubuntu-latest
+
+    steps:
       - name: SonarCloud Scan
         run: mvn sonar:sonar
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: 'https://sonarcloud.io'
+
+  Tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: maven test
+        run: mvn test
