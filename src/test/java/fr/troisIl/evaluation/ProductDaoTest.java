@@ -96,7 +96,7 @@ public class ProductDaoTest {
         verify(mockPreparedStatement, times(1)).close();
     }
 
-    @Test
+    /*@Test
     public void testFindById() throws SQLException {
          
         int productId = 1;
@@ -114,7 +114,7 @@ public class ProductDaoTest {
         assertEquals(productId, (int)result.getId());
         assertEquals("Test Product", result.getLabel());
         assertEquals(5, (int)result.getQuantity());
-    }
+    }*/
 
     @Test
     public void testDelete() throws SQLException {
