@@ -5,6 +5,7 @@ import java.sql.*;
 /**
  * Objet de connection à la base de données
  */
+//
 public class Database {
     /**
      * Contient la connexion effective à la base de données
